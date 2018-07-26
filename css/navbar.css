@@ -1,9 +1,15 @@
 .navbar {
   background-color: darkred;
-  border-style: groove;
+  border-style:double;
   border-color: gold;
 }
 
+.navbar-nav .active a{
+  color: gold !important;
+  opacity: .75;
+  border-bottom: 2px solid gold;
+  padding-bottom: 2px;
+}
 /* change the link color */
 .navbar-nav > li > a {
     color: white !important;
@@ -12,4 +18,6 @@
 
 nav a:hover{
 	opacity: .5;
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
 }
