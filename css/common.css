@@ -1,0 +1,44 @@
+body{
+  font-family: 'Spectral', 'KaiTi', 'STSong', Arial, serif;
+  color: darkred;
+}
+
+span.characters-title {
+  white-space: nowrap;
+}
+
+.banner {
+  width: 100%;
+  padding-top: 25px;
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.logo {
+  max-width: 125px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.background-image-container{
+  position: relative;
+  padding-top: 25px;
+  height: 100%;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered-text {
+  color: white;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
