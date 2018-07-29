@@ -1,0 +1,39 @@
+#team-photo {
+  position: relative;
+  width: 80%;
+  padding: 25px;
+}
+
+#team {
+  position: relative;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.exec-card {
+  border-style: solid;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 500px;
+}
+
+.exec-card h3 {
+  background-color: darkred;
+  padding: 10px;
+  color: white;
+}
+
+.exec-card img {
+  width: 250px;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
