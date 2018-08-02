@@ -5,12 +5,13 @@
 }
 
 #team {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
-#team h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+#team-title h2{
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
 }
 
 .exec-card {
@@ -51,4 +52,12 @@ img.center {
 
 .exec-img img {
   width: 250px;
+}
+
+#team .line-separator{
+  border-bottom: 2px solid gold;
+  margin-left: 0px;
+  width: 6%;
+  opacity: 0.5;
+  padding: 5px;
 }
