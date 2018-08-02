@@ -5,27 +5,38 @@
 }
 
 #team {
-  position: relative;
-  border-style: solid;
-  border-width: thin;
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 50px;
+}
+
+#team h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .exec-card {
-  border-style: solid;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.exec-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .exec-card h3 {
-  background-color: darkred;
-  padding: 10px;
-  color: white;
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.exec-card h4 {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.exec-card p {
+  font-size: 16px;
 }
 
 .exec-card img {
@@ -36,4 +47,8 @@ img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.exec-img img {
+  width: 250px;
 }
