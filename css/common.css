@@ -61,6 +61,14 @@ img.center {
   margin-bottom: 22px;
 }
 
+.container .line-separator{
+  border-bottom: 2px solid gold;
+  margin-left: 0px;
+  width: 6%;
+  opacity: 0.5;
+  padding: 5px;
+}
+
 .custom-footer {
   background-color: darkred;
   color: white;
