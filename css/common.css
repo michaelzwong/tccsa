@@ -28,7 +28,7 @@ span.nowrap-title {
 
 .background-image-container img {
   width: 100%;
-  border-style: solid;
+  border-style: inset;
   border-color: darkred;
   border-width: thick;
 }
