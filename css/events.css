@@ -1,6 +1,6 @@
 .event-card {
-  margin-top: 75px;
-  margin-bottom: 75px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .event-card h3 {
@@ -16,22 +16,17 @@
 }
 
 .event-card p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .event-img img {
-  margin-top: 75px;
-  margin-bottom: 75px;
-}
-
-.event-img img {
-  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .event-img-sm img {
-  width: 350px;
-}
-
-.event-img-xsm img {
-  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
 }
