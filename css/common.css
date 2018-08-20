@@ -52,6 +52,20 @@ img.center {
   text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
   text-align: center;
 }
+.img-location {
+  position: absolute;
+  bottom: 15px;
+  right: 40px;
+}
+
+.img-location p {
+  color: white;
+  font-weight: bolder;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 16px;
+}
 
 .line-separator{
   height: 1px;
@@ -114,4 +128,15 @@ img.center {
 .fa-instagram {
   color: white;
   font-size: 40px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: darkred !important;
+    border-color: darkred !important;
+}
+.btn-primary:hover {
+  opacity: 0.9;
 }

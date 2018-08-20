@@ -1,0 +1,28 @@
+#contact-title h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+#contact-title p {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.row {
+  margin: 20px;
+}
+
+#contact-form .form-control {
+  font-family: 'Spectral', 'KaiTi', 'STSong', Arial, serif, 'Font Awesome 5 Free';
+}
+
+#contact-form textarea {
+  min-height:200px;
+}
+
+.btn {
+  float: right;
+}
