@@ -4,7 +4,10 @@ function loadFullImage(fullImageSrc) {
 
   fullImage.onload = function() {
     image.src = this.src
+    image.className = "";
   }
 
-  fullImage.src = fullImageSrc
+  setTimeout(function() {
+    fullImage.src = fullImageSrc
+  }, 100)
 }
