@@ -7,6 +7,10 @@ span.nowrap-title {
   white-space: nowrap;
 }
 
+img:-moz-loading {
+    visibility: hidden;
+}
+
 .banner {
   width: 100%;
   padding-top: 25px;
@@ -33,10 +37,11 @@ span.nowrap-title {
   border-width: thick;
 }
 
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media {
+  .blur {
+    filter:blur(10px);
+    transition: all 1s;
+  }
 }
 
 .centered-text {
@@ -86,6 +91,7 @@ img.center {
 .custom-footer {
   background-color: darkred;
   color: white;
+  margin-top: 25px;
   padding-top:10px;
   padding-bottom: 5px;
 }
