@@ -1,22 +1,25 @@
-body{
-    font-family: 'Spectral', 'KaiTi', 'STSong', Arial, serif;
-    color: darkred;
+#home-title h2{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bold;
 }
 
-span.characters-title {
-  white-space: nowrap;
+#home-title i{
+  color: orange;
 }
 
-.banner {
+p {
+  font-size: 18px;
+}
+
+.container img {
+  padding-top: 50px;
   width: 100%;
-  padding-top: 25px;
-  padding-left: 25px;
-  display: inline-block;
+  padding-bottom: 50px;
 }
 
-.logo {
-  max-width: 125px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  float: right;
+.home-card {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
