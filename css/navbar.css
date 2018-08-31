@@ -1,8 +1,5 @@
 .navbar {
   background-color: darkred;
-  border-style: double;
-  border-color: gold;
-  border-width: medium;
 }
 
 .navbar-nav .active a{
