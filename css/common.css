@@ -27,14 +27,10 @@ img:-moz-loading {
 
 .background-image-container{
   position: relative;
-  padding: 25px;
 }
 
 .background-image-container img {
   width: 100%;
-  border-style: inset;
-  border-color: darkred;
-  border-width: thick;
 }
 
 @media {
