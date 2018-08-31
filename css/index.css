@@ -1,14 +1,3 @@
-#home-title h2{
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-weight: bold;
-}
-
-#home-title i{
-  color: orange;
-}
-
 p {
   font-size: 18px;
 }
