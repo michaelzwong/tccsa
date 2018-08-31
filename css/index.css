@@ -14,11 +14,24 @@ p {
 }
 
 .container img {
-  width: 100%;
-  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .home-card {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.container h4 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
 }
