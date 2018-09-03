@@ -93,9 +93,13 @@ img:-moz-loading {
   opacity: 0.8;
 }
 
+.container p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .container img {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 .container .line-separator{
