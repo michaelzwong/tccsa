@@ -55,8 +55,8 @@ img:-moz-loading {
 }
 .img-location {
   position: absolute;
-  bottom: 15px;
-  right: 40px;
+  bottom: -10px;
+  right: 10px;
 }
 
 .img-location p {
