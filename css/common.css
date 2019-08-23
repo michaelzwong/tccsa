@@ -140,6 +140,12 @@ img:-moz-loading {
   text-decoration: none;
 }
 
+.fa:hover {
+  opacity: 0.5;
+  color: gold;
+  text-decoration: none;
+}
+
 /* Gmail */
 .fa-envelope-square {
   color: white;
@@ -153,8 +159,8 @@ img:-moz-loading {
   font-size: 40px;
 }
 
-/* Instagram */
-.fa-instagram {
+/* Weixin */
+.fa-weixin {
   color: white;
   font-size: 40px;
 }
