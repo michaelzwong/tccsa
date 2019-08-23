@@ -119,6 +119,15 @@ img:-moz-loading {
   padding-bottom: 5px;
 }
 
+.disclaimer {
+  font-family: Arial, Verdana, Helvetica, San Serif; 
+  font-size: 9px; 
+  text-align: center; 
+  display:block; 
+  max-width: 800px; 
+  margin: 15px auto;
+}
+
 .copyright {
   text-align: center;
 }
