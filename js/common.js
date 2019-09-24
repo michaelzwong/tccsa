@@ -10,4 +10,5 @@ function loadFullImage(fullImageSrc) {
   setTimeout(function() {
     fullImage.src = fullImageSrc
   }, 100)
+  
 }
